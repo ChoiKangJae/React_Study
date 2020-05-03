@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 // prop의 타입을 강제할 수 있음
 import propTypes from 'prop-types';
 
+// props -> 부모 컴포넌트가 설정하는 값, 컴포넌트 자신은 props를 읽기전용으로만 사용할 수 있음
+// state ->
+
 const MyComponent = props => {
   const { name, children, favoriteNumber } = props;
 
@@ -51,5 +54,3 @@ class MyComponent2 extends Component {
 }
 
 export { MyComponent, MyComponent2 };
-
-// 103쪽 state 시작해야함
