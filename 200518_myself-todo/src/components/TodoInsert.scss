@@ -1,6 +1,13 @@
 .TodoInsert {
   input {
     width: 100%;
-    height: 50px;
+    height: 40px;
+    border: 1px solid #fafafa;
+    border-radius: 5px;
+
+    &::placeholder {
+      padding: 10px;
+      font-size: 12px;
+    }
   }
 }
